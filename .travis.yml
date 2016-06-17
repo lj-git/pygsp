@@ -14,19 +14,19 @@ addons:
     packages:
     - python-dev
     - pkg-config
-    - libfreetype6-dev
-    - libpng-dev
-    - libpython-dev
+#    - libfreetype6-dev
+#    - libpng-dev
+#    - libpython-dev
     - liblapack-dev
     - libatlas-dev
-    - gcc
-    - cmake
+#    - gcc
+#    - cmake
     - gfortran
     - libatlas-base-dev
 #    - python-matplotlib
-    - qt4-default
-    - libqt4-dev
-    - qt4-qmake
+#    - qt4-default
+#    - libqt4-dev
+#    - qt4-qmake
     - xvfb
 
 before_install:

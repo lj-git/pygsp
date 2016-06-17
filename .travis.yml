@@ -23,7 +23,8 @@ addons:
     - cmake
     - gfortran
     - libatlas-base-dev
-    - python-matplotlib
+#    - python-matplotlib
+    - qt4-default
     - libqt4-dev
     - qt4-qmake
     - xvfb

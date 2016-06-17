@@ -6,8 +6,11 @@ sudo: false
 
 python:
   - "2.7"
-  - "3.4"
-  - "pypy" # fails to install numpy
+#  - "3.2"
+#  - "3.3"
+#  - "3.4"
+#  - "3.5"
+#  - "pypy" # fails to install numpy
 
 addons:
   apt:
@@ -16,17 +19,12 @@ addons:
     - pkg-config
     - libfreetype6-dev
     - libpng-dev
-    - libpython-dev
+#   - libpython-dev
     - liblapack-dev
     - libatlas-dev
-#    - gcc
-#    - cmake
     - gfortran
     - libatlas-base-dev
 #    - python-matplotlib
-#    - qt4-default
-#    - libqt4-dev
-#    - qt4-qmake
     - xvfb
 
 before_install:

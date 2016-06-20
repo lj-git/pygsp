@@ -24,7 +24,7 @@ setup(
               'pygsp.pointsclouds', 'pygsp.tests'],
     package_data={'pygsp.pointsclouds': ['misc/*.mat']},
     test_suite='pygsp.tests.test_all.suite',
-    install_requires=['numpy', 'scipy', 'PySide', 'pyopengl', 'pyqtgraph', 'matplotlib'],
+    install_requires=['numpy', 'scipy', 'PySide', 'pyopengl', 'pyqtgraph', 'matplotlib==1.4.3' if sys.version.major == 3 and sys.version.minor < 4 else 'matplotlib'],
     license="BSD",
     keywords='graph signal processing toolbox filters pointclouds',
     platforms='any',
